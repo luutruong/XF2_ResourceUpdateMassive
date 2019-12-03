@@ -1,0 +1,21 @@
+<xf:title>{{ phrase('rum_update_massive') }}</xf:title>
+
+<xf:breadcrumb source="$resource.getBreadcrumbs()" />
+
+<xf:form action="{{ link('resources/rum-update', $resource) }}"
+         data-xf-init="attachment-manager"
+         ajax="true" class="block">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:if is="$attachmentData">
+                <xf:formrow>{{ phrase('rum_this_changes_will_automatically_append_to_all_updates') }}</xf:formrow>
+                <xf:formrow>
+                    <xf:macro template="helper_attach_upload" name="upload_block"
+                              arg-attachmentData="{$attachmentData}" />
+                </xf:formrow>
+            </xf:if>
+        </div>
+
+        <xf:submitrow icon="save"/>
+    </div>
+</xf:form>

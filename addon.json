@@ -1,0 +1,23 @@
+{
+    "legacy_addon_id": "",
+    "title": "[tl] Resource Update Massive",
+    "description": "",
+    "version_id": 1000000,
+    "version_string": "1.0.0",
+    "dev": "Truonglv",
+    "dev_url": "https://nobita.me",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010571,
+            "XenForo 2.1.5 or higher"
+        ],
+        "XFRM": [
+            2010470,
+            "XenForo Resource Manager 2.1.4 or higher"
+        ]
+    },
+    "icon": ""
+}

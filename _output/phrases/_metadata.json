@@ -1,0 +1,14 @@
+{
+    "rum_this_changes_will_automatically_append_to_all_updates.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "6471df371128c0ab1b011ea7e8f7241a"
+    },
+    "rum_update_massive.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "5a8fdaca665ed2e2828534ab2eee6528"
+    }
+}

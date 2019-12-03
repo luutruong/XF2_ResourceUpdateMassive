@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_wrapper_macros",
+    "description": "Add link to update massive",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--[XF:resource_tools_menu:before_footer]-->",
+    "replace": "<xf:if is=\"$resource.canReleaseUpdate()\">\n\t<a href=\"{{ link('resources/rum-update', $resource) }}\"\n\t   class=\"menu-linkRow\"\n\t   data-xf-click=\"overlay\">{{ phrase('rum_update_massive') }}</a>\n</xf:if>\n$0"
+}
